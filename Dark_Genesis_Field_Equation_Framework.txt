@@ -1,0 +1,57 @@
+
+Dark Genesis - Scalar Field Decay Framework
+
+1. Field Equation of Motion (Modified Klein-Gordon)
+
+We define the dark substrate as a homogeneous scalar field (t) evolving in an expanding universe:
+
+  '' + 3H ' + dV/d +  ' = 0
+
+- '' : acceleration of the field
+- 3H' : Hubble friction
+- dV/d : force from the potential
+- ' : decay/friction term driving conversion to baryons
+
+2. Energy Density and Pressure of the Field
+
+  _ = (1/2) '^2 + V()
+  p_ = (1/2) '^2 - V()
+
+3. Energy Transfer Equations
+
+  d_/dt + 3H(_ + p_) = -Q
+  d_b/dt + 3H _b = +f_b Q
+  d_r/dt + 4H _r = +f_r Q
+
+Where:
+- Q =  '^2
+- f_b + f_r = 1 (fractions into baryons and radiation)
+
+4. Modified Friedmann Equation
+
+  H^2 = (8G / 3) * (_ + _b + _r)
+
+5. Sample Potential (for decay dynamics)
+
+  V() = V_0 * exp(- )
+
+Other options include:
+- V() = (1/2) m^2 ^2
+- Plateau or hybrid models
+
+6. Late-Time Behavior
+
+As Q approaches zero (conversion slows), _ drops and expansion slows down. This explains cosmic acceleration's eventual slowdown.
+
+Summary Table:
+
+Quantity     | Description
+-------------|-------------------------------
+(t)         | Dark substrate scalar field
+            | Decay rate
+Q            | Energy transfer rate
+_b          | Baryonic energy density
+_r          | Radiation energy density
+V()         | Scalar potential
+
+This framework encodes the Big Bang as a decay process, respects energy conservation, and provides a simulation-ready system.
